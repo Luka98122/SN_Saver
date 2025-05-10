@@ -33,7 +33,9 @@ Features include one-click backups, automatic backup scheduling, visual save ins
 
 ### ✅ Easy Installation — EXE File
 
-(Coming soon or to be built with PyInstaller)
+[📥 Download SN_Saver.exe](https://github.com/Luka98122/SN_Saver/releases/download/tested/main.exe)  
+Then double-click to run the app.
+> ⚠️ You may need to allow the file through Windows Defender or SmartScreen.
 
 ### 💻 Advanced — From Source
 
