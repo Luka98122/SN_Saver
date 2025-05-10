@@ -16,7 +16,8 @@ Features include one-click backups, automatic backup scheduling, visual save ins
   Shows `screenshot.jpg` from each save slot inside the ZIP, organized in a clean table.
 
 - 🔁 **Load Backup**  
-  Click a zip file, or thumnail, and restore it to the `SNAppData` folder used by Steam.
+  **1.** Exit to main menu.  
+  **2.** Click a zip file or thumbnail, and restore it to the `SNAppData` by clicking **Load Save**.
 
 - ⏱️ **Auto Backup Mode**  
   Automatically create backups every N minutes (configurable from 1–60).  

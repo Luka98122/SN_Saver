@@ -159,7 +159,7 @@ def toggle_auto_backup():
         auto_backup_thread.start()
     else:
         auto_backup_enabled = False
-    save_options()  # Save the updated options
+    save_options()  
 
 def update_table():
     for widget in table_frame.winfo_children():
@@ -209,7 +209,7 @@ def update_table():
             widget.bind("<Button-1>", lambda e, w=row_widgets, p=save["path"]: on_row_click(w, p))
 
 # GUI Setup
-import time  # Needed for time.sleep()
+import time 
 root = tk.Tk()
 root.title("Subnautica Save Viewer")
 
@@ -254,7 +254,6 @@ btn_backup.pack(side=tk.LEFT, padx=(0, 10))
 btn_load = tk.Button(top_buttons, text="Load Backup", command=load_backup)
 btn_load.pack(side=tk.LEFT)
 
-# Scrollable canvas for table
 canvas = tk.Canvas(main_frame)
 scroll_y = tk.Scrollbar(main_frame, orient="vertical", command=canvas.yview)
 scroll_x = tk.Scrollbar(main_frame, orient="horizontal", command=canvas.xview)
@@ -289,7 +288,6 @@ def on_configure(event):
 
 table_frame.bind("<Configure>", on_configure)
 
-# Initial setup
 ensure_backup_dir_and_count()
 if (options["auto_backup_enabled"]):
     create_backup()
